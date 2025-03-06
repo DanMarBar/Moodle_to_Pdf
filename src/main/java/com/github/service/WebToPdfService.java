@@ -97,7 +97,7 @@ public class WebToPdfService {
                 .setWidth("210mm")
                 .setPrintBackground(true)
         );
-        System.out.println("PDF generado en: " + pdfPath);
+        System.out.println("PDF generado correctamente en: " + pdfPath);
     }
 
     public String obtainOriginalFileNameUsingUrl() {
